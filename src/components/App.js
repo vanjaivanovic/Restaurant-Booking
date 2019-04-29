@@ -15,12 +15,10 @@ function App() {
      <div>
        <BrowserRouter>
         <Switch>
-          <div>
               <Route path="/" component={StartPage} exact/>
               <Route path="/AdminPage" component={AdminPage} />
               <Route path="/Booking" component={Booking} />
               <Route path="/Contact" component={Contact} /> 
-            </div>
           </Switch>
         </BrowserRouter>
       </div>
