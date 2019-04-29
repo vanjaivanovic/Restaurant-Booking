@@ -13,12 +13,12 @@ import {
 function App() {
   return(
      <div>
-       <HashRouter>
+       <HashRouter basename="/">
         <Switch>
-              <Route path="#/" component={StartPage} exact/>
-              <Route path="#/AdminPage" component={AdminPage} />
-              <Route path="#/Booking" component={Booking} />
-              <Route path="#/Contact" component={Contact} /> 
+              <Route path="/" component={StartPage} exact/>
+              <Route path="/AdminPage" component={AdminPage} />
+              <Route path="/Booking" component={Booking} />
+              <Route path="/Contact" component={Contact} /> 
           </Switch>
         </HashRouter>
       </div>
