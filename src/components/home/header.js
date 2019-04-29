@@ -11,7 +11,7 @@ function StartPageHeader (){
             <header id="headerContent">
                <NavMenu />
                     <div id="restaurantTitle">
-                        <Link to="/"><h1>Juana La Loca</h1></Link>
+                        <Link to="#/"><h1>Juana La Loca</h1></Link>
                         <h2>Restaurant & Bar</h2>
                     </div>
             </header>

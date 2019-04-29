@@ -6,21 +6,21 @@ import { Booking } from './booking/booking.js';
 import AdminPage from './admin/admin.js';
 import {
   Switch,
-  BrowserRouter,
+  HashRouter,
   Route
 } from 'react-router-dom';
 
 function App() {
   return(
      <div>
-       <BrowserRouter>
+       <HashRouter>
         <Switch>
-              <Route path="/" component={StartPage} exact/>
-              <Route path="/AdminPage" component={AdminPage} />
-              <Route path="/Booking" component={Booking} />
-              <Route path="/Contact" component={Contact} /> 
+              <Route path="#/" component={StartPage} exact/>
+              <Route path="#/AdminPage" component={AdminPage} />
+              <Route path="#/Booking" component={Booking} />
+              <Route path="#/Contact" component={Contact} /> 
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
   );
 }
