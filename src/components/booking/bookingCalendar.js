@@ -33,7 +33,7 @@ export class BookingCalendar extends React.Component {
     };
 
     return (
-      <div>
+      <div className="bookingSectionOne">
         <div>
           <Guests SelectID="guestsAmount" event={this.props.numberofguest} />
             <label>Date</label>
